@@ -1,0 +1,90 @@
+/* 
+Theme Name: Responsive Child Theme
+Theme URI: http://cyberchimps.com/guide/child-theme-example/
+Description: Responsive Child Theme
+Template: responsive
+Version: 1.0.0
+Author: CyberChimps
+Author URI: https://cyberchimps.com/
+License: GNU General Public License
+License URI: license.txt
+
+*/
+
+/* =Start From Here
+-------------------------------------------------------------- */
+/*Header*/
+#logo {
+	width:100%;
+}
+
+/* Laziest Galerie
+Verstecke ordner symbol und zweite breadcrumb bar
+*/
+div.folder {
+	display:none;
+}
+div.top_navigator {
+	display:none;
+}
+
+/*404 Seite*/
+.box-404 {
+	background-color: #898996;
+	border-color: #898996;
+	border: 1px solid;
+	padding: 20px;
+	margin-bottom: 20px;
+	color: #FFFFFF;
+}
+.title-404 {
+	color: #FFFFFF;
+}
+
+/*Verstecke Datum etz für posts*/
+.post-data {
+	display:none;
+}
+.title-archive {
+	display:none;
+}
+
+.post-meta {
+	display:none;
+}
+
+.read-more {
+	display:none;
+}
+
+/*Verkleinere überschriften*/
+h2 {
+	font-size:1.7em;
+}
+h3 {
+    font-size:1.4em;
+}
+h4 {
+    font-size:1.3em;
+}
+h5 {
+	font-size:1.2em;
+}
+h6 {
+	font-size:1.1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*The last 29 days of the month are the hardest."- Nikola Tesla*/
