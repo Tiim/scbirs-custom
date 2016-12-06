@@ -22,6 +22,7 @@ get_header();?>
 		
 			
 		<h1 class="entry-title post-title">Dokumente</h1>
+		<div style="overflow-x:auto">
 		<table>
 		<tr><th><strong>Name</strong></th><th><strong>Datum</strong></th><th><strong>Vorschau</strong></th></tr>
 		<?php while( have_posts() ) : the_post(); ?>
@@ -45,6 +46,7 @@ get_header();?>
 		endwhile;
 		?>
 		</table>
+		</div>
 	<?php
 		get_template_part( 'loop-nav', get_post_type() );
 	else :
