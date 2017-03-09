@@ -1,5 +1,6 @@
 <?php
 
+/** Allow iframes în widgets etc. Used for youtube player */
 function allow_iframe_content() {
   global $allowedposttags, $allowedtags;
   $iframe = array(
