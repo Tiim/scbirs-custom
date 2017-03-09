@@ -31,9 +31,10 @@ $title = ( is_search() ? sprintf( __( 'Ihre Suche nach %s gab kein Resultat.', '
 		<p><?php printf('Die Seite die Sie suchen scheint nicht zu existieren. Zur&uuml;ck auf die %s.',
 			sprintf( '<a href="%1$s" title="%2$s">%3$s</a>',
 						 esc_url( get_home_url() ),
-						 esc_attr__( 'scbirs.ch', 'responsive' ),
-						 esc_attr__( '&larr; Hauptseite', 'responsive' )
+						 esc_attr( 'scbirs.ch' ),
+						 esc_attr( '&larr; Hauptseite' )
 				)
 		);
+		//printf(get_option('admin_email'));
 		?></p>
 	</div>
