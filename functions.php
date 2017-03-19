@@ -8,7 +8,7 @@ function allow_iframe_content() {
 	"height" => array(),
 	"src" => array(),
 	"frameborder" => array(),
-	allowfullscreen => array()
+	"allowfullscreen" => array()
   );
   
   $allowedposttags["iframe"] = $iframe;
