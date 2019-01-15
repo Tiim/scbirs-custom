@@ -15,4 +15,12 @@ function allow_iframe_content() {
   $allowedtags["iframe"] = $iframe;
 }
 add_action( 'init', 'allow_iframe_content' );
+
+/** Add the theme meta tag */
+function scbirs_add_theme_meta() {
+?>
+	<meta name="theme-color" content="#005fab">
+<?php
+}
+add_action( 'wp_head', 'scbirs_add_theme_meta' );
 ?>
